@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.star0.cc</id>
+    <id>https://star-zer0.github.io</id>
     <title>Gridea</title>
-    <updated>2021-04-21T22:01:00.785Z</updated>
+    <updated>2021-04-21T22:03:10.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.star0.cc"/>
-    <link rel="self" href="https://blog.star0.cc/atom.xml"/>
+    <link rel="alternate" href="https://star-zer0.github.io"/>
+    <link rel="self" href="https://star-zer0.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://blog.star0.cc/images/avatar.png</logo>
-    <icon>https://blog.star0.cc/favicon.ico</icon>
+    <logo>https://star-zer0.github.io/images/avatar.png</logo>
+    <icon>https://star-zer0.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[关于0号星]]></title>
-        <id>https://blog.star0.cc/post/about/</id>
-        <link href="https://blog.star0.cc/post/about/">
+        <id>https://star-zer0.github.io/post/about/</id>
+        <link href="https://star-zer0.github.io/post/about/">
         </link>
         <updated>2021-04-17T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>

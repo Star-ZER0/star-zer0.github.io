@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.star0.cc</id>
     <title>Gridea</title>
-    <updated>2021-04-21T15:02:57.584Z</updated>
+    <updated>2021-04-21T22:01:00.785Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.star0.cc"/>
     <link rel="self" href="https://blog.star0.cc/atom.xml"/>
@@ -11,18 +11,17 @@
     <icon>https://blog.star0.cc/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[关于]]></title>
+        <title type="html"><![CDATA[关于0号星]]></title>
         <id>https://blog.star0.cc/post/about/</id>
         <link href="https://blog.star0.cc/post/about/">
         </link>
-        <updated>2019-01-25T11:09:48.000Z</updated>
+        <updated>2021-04-17T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+<p>欢迎来到星澪Star_ZER0的小窝呀，很高兴遇见你！🤝</p>
 </blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+<p>还不知道写些什么qwq</p>
+<p>###联系方式📬<br>
+Mail:i@star0.cc</p>
 ]]></content>
     </entry>
 </feed>

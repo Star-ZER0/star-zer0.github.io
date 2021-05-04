@@ -1,0 +1,150 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>QQ昵称生成器 By @星澪Star_ZER0</title>
+    <style>
+/* By @星澪Star_ZER0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+              background-color: #e9edf1;
+}
+
+        #container {
+            /*padding-top: 100px;*/
+            /*font-size: 20px;*/
+            text-align: center;
+
+            /*margin: 0;*/
+            /*padding: 0;*/
+        }
+
+        /*body > * {
+            margin: 10px 0;
+
+        }*/
+
+        #container > p {
+            margin: 15px auto 10px 10px;
+            width: 100%;
+            text-align: left;
+            font-size: 14px;
+            color: #34485f;
+        }
+
+        input {
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            background-color: #e9edf1;
+        }
+
+
+        #output {
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            background-color: #e9edf1;
+            line-height: 40px;
+        }
+
+        button {
+
+
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            height: 40px;
+            width: 100px;
+            background-color: 52c5fe;
+            border: none;
+            color: #ffffff;
+        }
+        #container {
+            box-shadow: 0px 0px 5px #bfbfbf;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            position: absolute;
+            width: 80%;
+            max-width: 90%;
+            /*height: 60%;*/
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+        }
+</style>
+    <script>
+        function reverse(s){
+            return s.split("").reverse().join("");
+        }
+        function gentext() {
+            var name = document.querySelector("input[name=name]").value;
+            var suffix = document.querySelector("input[name=suffix]").value;
+            suffix = reverse(suffix);
+
+            var output = document.querySelector("#output");
+            output.value = name+String.fromCharCode(8238)+suffix +String.fromCharCode(8237);
+            // document.write("<h1 style='padding: 100px 100px'>"+name+"&#8238;"+suffix +"&#8237;</h1>")
+            output.setSelectionRange(0, output.value.length);
+            // output.innerHTML = "+name+"&#8238;"+suffix +"&#8237;
+            // output.style.visibility = "visible";
+            // document.write("")
+        }
+    </script>
+</head>
+
+<body>
+<div id="container">
+    <p>名字/前缀</p>
+    <input type="text" name="name">
+    <p>后缀</p>
+    <input type="text" name="suffix">
+
+    <button type="button" onclick="gentext();">生成!</button>
+    <input onclick="this.setSelectionRange(0, this.value.length);" id="output">
+</div>
+
+</body></html>

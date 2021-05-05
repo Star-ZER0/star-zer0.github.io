@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://star0.cc</id>
+    <id>https://blog.star0.cc</id>
     <title>0号星 - Star0</title>
-    <updated>2021-05-05T03:52:40.345Z</updated>
+    <updated>2021-05-05T04:06:04.221Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://star0.cc"/>
-    <link rel="self" href="https://star0.cc/atom.xml"/>
+    <link rel="alternate" href="https://blog.star0.cc"/>
+    <link rel="self" href="https://blog.star0.cc/atom.xml"/>
     <subtitle>星澪Star_ZER0的个人主页</subtitle>
-    <logo>https://star0.cc/images/avatar.png</logo>
-    <icon>https://star0.cc/favicon.ico</icon>
+    <logo>https://blog.star0.cc/images/avatar.png</logo>
+    <icon>https://blog.star0.cc/favicon.ico</icon>
     <rights>All rights reserved 2021, 0号星 - Star0</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://star0.cc/test/</id>
-        <link href="https://star0.cc/test/">
+        <id>https://blog.star0.cc/test/</id>
+        <link href="https://blog.star0.cc/test/">
         </link>
         <updated>2021-04-30T11:59:38.000Z</updated>
         <content type="html"><![CDATA[<p>test</p>
